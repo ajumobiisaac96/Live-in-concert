@@ -28,10 +28,7 @@ export default function HeroSection({ onBookSeat }) {
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/35 to-black/40"></div>
 
         <div className="max-w-md mx-auto space-y-8 relative z-10">
-          <div
-            className="space-y-3 animate-slide-up"
-            style={{ animationDelay: "0.1s" }}
-          >
+          <div className="space-y-3 animate-slide-up">
             <p className="text-xs text-white/70 font-space-grotesk uppercase tracking-wider font-semibold">
               Featuring
             </p>
@@ -43,10 +40,7 @@ export default function HeroSection({ onBookSeat }) {
             </p>
           </div>
 
-          <div
-            className="space-y-3 animate-slide-up"
-            style={{ animationDelay: "0.2s" }}
-          >
+          <div className="space-y-3 animate-slide-up">
             <div className="flex justify-between items-start gap-6">
               <div>
                 <p className="text-xs text-white/60 font-space-grotesk uppercase tracking-wider font-semibold mb-1">
@@ -73,22 +67,16 @@ export default function HeroSection({ onBookSeat }) {
             </div>
           </div>
 
-          <div className="animate-slide-up" style={{ animationDelay: "0.3s" }}>
+          <div className="animate-slide-up">
             <CountdownTimer variant="mobile" />
           </div>
 
-          <div
-            className="pt-2 animate-slide-up"
-            style={{ animationDelay: "0.4s" }}
-          >
+          <div className="pt-2 animate-slide-up">
             <button
               onClick={onBookSeat}
-              className="w-full px-4 py-3 bg-accent-red text-white font-bold text-sm rounded transition-all duration-300 hover:shadow-lg hover:scale-105 font-space-grotesk"
-              style={{ backgroundColor: "#dc143c" }}
-              onMouseEnter={(e) => (e.target.style.backgroundColor = "#b01030")}
-              onMouseLeave={(e) => (e.target.style.backgroundColor = "#dc143c")}
+              className="w-full px-4 py-3 bg-red-600 text-white font-bold text-sm rounded transition-all duration-300 hover:bg-red-700 hover:shadow-lg"
             >
-              Secure Your Ticket
+              Secure A seat
             </button>
           </div>
         </div>
@@ -106,10 +94,7 @@ export default function HeroSection({ onBookSeat }) {
         }}
       >
         <div className="flex flex-col justify-center gap-6">
-          <div
-            className="space-y-1 animate-slide-in-left"
-            style={{ animationDelay: "0.1s" }}
-          >
+          <div className="space-y-1 animate-slide-in-left">
             <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest font-space-grotesk">
               Featuring
             </p>
@@ -118,20 +103,14 @@ export default function HeroSection({ onBookSeat }) {
             </p>
           </div>
 
-          <div
-            className="space-y-2 animate-slide-in-left"
-            style={{ animationDelay: "0.2s" }}
-          >
+          <div className="space-y-2 animate-slide-in-left">
             <h1 className="text-7xl font-black text-foreground font-space-grotesk tracking-tight leading-none">
               AWAKENING
             </h1>
-            <div className="w-20 h-1.5 bg-accent-red rounded-full"></div>
+            <div className="w-20 h-1.5 bg-red-600 rounded-full"></div>
           </div>
 
-          <div
-            className="flex gap-12 items-start animate-slide-in-left"
-            style={{ animationDelay: "0.3s" }}
-          >
+          <div className="flex gap-12 items-start animate-slide-in-left">
             <div className="space-y-0.5">
               <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest font-space-grotesk">
                 Date
@@ -150,33 +129,21 @@ export default function HeroSection({ onBookSeat }) {
             </div>
           </div>
 
-          <div
-            className="animate-slide-in-left"
-            style={{ animationDelay: "0.4s" }}
-          >
+          <div className="animate-slide-in-left">
             <CountdownTimer variant="desktop" />
           </div>
 
-          <div
-            className="pt-1 animate-slide-in-left"
-            style={{ animationDelay: "0.5s" }}
-          >
+          <div className="pt-1 animate-slide-in-left">
             <button
               onClick={onBookSeat}
-              className="w-80 px-8 py-3 bg-accent-red text-white font-bold text-base rounded transition-all duration-300 hover:shadow-lg hover:scale-105 font-space-grotesk"
-              style={{ backgroundColor: "#dc143c" }}
-              onMouseEnter={(e) => (e.target.style.backgroundColor = "#b01030")}
-              onMouseLeave={(e) => (e.target.style.backgroundColor = "#dc143c")}
+              className="w-full px-8 py-3 bg-red-600 text-white font-bold text-base rounded transition-all duration-300 hover:bg-red-700 hover:shadow-lg"
             >
-              Secure Your Ticket
+              Secure A Seat
             </button>
           </div>
         </div>
 
-        <div
-          className="flex justify-center items-center h-full animate-slide-in-right"
-          style={{ animationDelay: "0.3s" }}
-        >
+        <div className="flex justify-center items-center h-full animate-slide-in-right">
           <div
             className="relative w-full"
             style={{ maxWidth: "100%", height: "100vh", maxHeight: "90vh" }}
@@ -185,8 +152,7 @@ export default function HeroSection({ onBookSeat }) {
             <img
               src="/images/awakening.jpg"
               alt="Awakening Concert"
-              className="w-full h-full object-cover rounded shadow-image-sides"
-              style={{ aspectRatio: "16/9", objectFit: "cover" }}
+              className="w-full h-full object-cover rounded"
             />
           </div>
         </div>

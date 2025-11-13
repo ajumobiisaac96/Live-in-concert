@@ -73,11 +73,10 @@ export default function RegistrationModal({ onClose, onSuccess }) {
   return (
     <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 animate-fade-in">
       <div className="bg-white rounded-xl max-w-md w-full p-6 sm:p-8 animate-slide-up max-h-[90vh] overflow-y-auto hide-scrollbar">
-        {/* Header */}
         <div className="flex justify-between items-start mb-6">
           <div>
             <h2 className="text-2xl font-bold text-foreground">
-              Secure Your Ticket
+              Secure A Seat
             </h2>
             <p className="text-sm text-muted-foreground mt-1">
               Awakening Concert - Dec 10, 2025
@@ -91,9 +90,7 @@ export default function RegistrationModal({ onClose, onSuccess }) {
           </button>
         </div>
 
-        {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Full Name */}
           <div>
             <label className="block text-sm font-semibold text-foreground mb-2">
               Full Name
@@ -113,7 +110,6 @@ export default function RegistrationModal({ onClose, onSuccess }) {
             )}
           </div>
 
-          {/* Phone */}
           <div>
             <label className="block text-sm font-semibold text-foreground mb-2">
               Phone Number
@@ -133,31 +129,21 @@ export default function RegistrationModal({ onClose, onSuccess }) {
             )}
           </div>
 
-          {/* Submit Error */}
           {errors.submit && (
             <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-sm">
               {errors.submit}
             </div>
           )}
 
-          {/* Submit Button */}
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full py-3 bg-accent-red text-white font-semibold rounded-lg hover:bg-accent-red-dark transition-colors duration-200 disabled:opacity-50"
-            style={{ backgroundColor: "#dc143c" }}
-            onMouseEnter={(e) =>
-              !isSubmitting && (e.target.style.backgroundColor = "#b01030")
-            }
-            onMouseLeave={(e) =>
-              !isSubmitting && (e.target.style.backgroundColor = "#dc143c")
-            }
+            className="w-full py-3 bg-accent-red text-white font-semibold rounded-lg hover:bg-red-700 transition-colors duration-200 disabled:opacity-50"
           >
-            {isSubmitting ? "Processing..." : "Confirm Booking"}
+            {isSubmitting ? "Processing..." : "submit"}
           </button>
         </form>
 
-        {/* Partnership Info */}
         <div className="mt-8 pt-6 border-t border-border">
           <p className="text-xs font-semibold text-muted-foreground uppercase mb-3">
             Partnership Enquiries

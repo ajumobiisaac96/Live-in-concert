@@ -27,7 +27,7 @@ export default function Navigation({ onBookSeat }) {
           onMouseEnter={(e) => (e.target.style.backgroundColor = "#b01030")}
           onMouseLeave={(e) => (e.target.style.backgroundColor = "#dc143c")}
         >
-          secure your ticket
+          secure A Seat
         </button>
       </div>
     </nav>
