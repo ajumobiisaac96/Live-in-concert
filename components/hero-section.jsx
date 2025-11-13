@@ -136,7 +136,7 @@ export default function HeroSection({ onBookSeat }) {
           <div className="pt-1 animate-slide-in-left">
             <button
               onClick={onBookSeat}
-              className="w-full px-8 py-3 bg-red-600 text-white font-bold text-base rounded transition-all duration-300 hover:bg-red-700 hover:shadow-lg"
+              className="w-70 px-8 py-3 bg-red-600 text-white font-bold text-base rounded transition-all duration-300 hover:bg-red-700 hover:shadow-lg"
             >
               Secure A Seat
             </button>
