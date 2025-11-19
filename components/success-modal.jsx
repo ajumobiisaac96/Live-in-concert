@@ -53,7 +53,7 @@ export default function SuccessModal({ onClose }) {
         </p>
 
         {/* WhatsApp Section */}
-        <div className="bg-accent-green/10 rounded-lg p-4 mb-6 border border-accent-green/30">
+        {/* <div className="bg-accent-green/10 rounded-lg p-4 mb-6 border border-accent-green/30">
           <p className="text-sm font-semibold text-foreground mb-2">
             Stay Updated on WhatsApp
           </p>
@@ -70,13 +70,13 @@ export default function SuccessModal({ onClose }) {
               ? "Opening WhatsApp..."
               : "Join WhatsApp Channel"}
           </button>
-        </div>
+        </div> */}
 
         {/* Contact Info */}
-        <div className="text-xs text-muted-foreground mb-6 space-y-1">
+        {/* <div className="text-xs text-muted-foreground mb-6 space-y-1">
           <p>📧 Check your email for confirmation details</p>
           <p>📱 We'll send you reminders as the date approaches</p>
-        </div>
+        </div> */}
 
         {/* Close Button */}
         <button

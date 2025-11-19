@@ -31,7 +31,7 @@ export const saveRegistration = async (data: {
       fullName: data.fullName,
       phone: data.phone,
       registeredAt: new Date().toISOString(),
-      eventName: "Awakening Concert - Dec 10, 2025",
+      eventName: "Awakening Concert 2025",
     };
 
     // Make API call to Appwrite

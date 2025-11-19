@@ -16,8 +16,7 @@ export default function PartnershipSection() {
             </div>
             <h3 className="text-lg font-bold mb-3">Become a Partner</h3>
             <p className="text-sm text-white/80 mb-4">
-              Join us in bringing this transformative experience to our
-              community
+              Join us in bringing this transformative experience
             </p>
             <div className="bg-white/5 rounded p-3 text-xs">
               <p className="font-semibold mb-2">Partnership Details:</p>
