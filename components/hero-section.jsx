@@ -18,7 +18,7 @@ export default function HeroSection({ onBookSeat }) {
       <section
         className="relative pt-16 pb-12 px-4 min-h-screen flex items-center"
         style={{
-          backgroundImage: "url(/images/awakening.jpg)",
+          backgroundImage: "url(/images/AWAKENING.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
