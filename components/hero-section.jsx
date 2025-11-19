@@ -150,7 +150,7 @@ export default function HeroSection({ onBookSeat }) {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent rounded pointer-events-none z-10"></div>
             <img
-              src="/images/awakening.jpg"
+              src="/images/AWAKENING.jpg"
               alt="Awakening Concert"
               className="w-full h-full object-cover rounded"
             />
